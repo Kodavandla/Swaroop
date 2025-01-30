@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        .sub{
+            background-color: rgb(130, 211, 252);
+            padding-bottom: 70vh;
+            margin: -10vh;
+            h1{
+                text-align: center;
+                position: relative;
+                top: 25vh;
+                font-size: 100px;
+                color: darkorange;
+            }
+            
+            div{
+                text-align: center;
+                position: relative;
+                top: 30vh;
+                
+    
+            }
+            button{
+                cursor: pointer;
+                height: 5vh;
+                width: 10vw;
+                
+            }
+            button:hover{
+                background-color: chartreuse;
+                color: red;
+                
+            }
+        }
+
+        .q{
+            border: 1px solid gray;
+            text-align: center;
+            padding: 50px;
+            
+        }
+        .a{
+            padding: 10vh;
+
+        }
+
+       
+
+       
+        
+    </style>
+</head>
+<body style="background-color: rgb(241, 248, 247);" >
+    <header class="sub" >
+        <h1>My Portfolio</h1>
+        <div>
+        <a href=""><button>About</button></a>
+        <a href=""><button>Skills</button></a>
+        <a href=""><button>Project</button></a>
+        <a href=""><button>Contact</button></a>
+        </div>
+        
+    </header>
+    <br>
+    <br><br><br>
+
+
+    <main>
+        <section class="q" >
+        <h1 style="font-size: 50px;" >About</h1>
+        <img style="height: 300px;" src="Anil image.jpg" alt="Image"><br>
+        <p>
+            I am Anil i was Graduated from MCA in Krishna University in Andhra Pradesh. <br>
+            And I had some Alphbates Telugu and English and i did One Project from my MCA. <br>
+            Also i have some skills of my course that was HTML,CSS and JAVA SCRIPT. <br>
+            My native place is Andhra Pradesh in India.
+
+        </p>
+        </section>
+
+        <section class="q" >
+            <h1 style="font-size: 50px;" >Contact</h1>
+            <label for="name">User Name:</label>
+            <input type="text" name="User Name" id="name" placeholder="Enter Name" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="Password" id="password" min="5" maxlength="6" placeholder="Enter Password" required >
+            <br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" placeholder="Enter email"  required ><br>
+            <b>Choose Gender:</b>
+            <input type="radio" name="" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="" id="female" required>
+            <label for="female">Female</label>
+            <br>
+            <b>Course:</b>
+            <input type="checkbox" name="" id="Html" required>
+            <label for="Html">HTML</label>
+            <input type="checkbox" name="" id="React JS">
+            <label for="React JS">REACT JS</label>
+            <br>
+            <a href=""><button>Submit</button></a>
+            <a href=""><button>Reset</button></a>
+
+        </section>
+
+        <section class="q" >
+            <h1 style="font-size: 50px;" >Project</h1>
+            
+                <b>Music Recommendation System</b>
+            
+        </section>
+
+        <section class="q" >
+            <h1 style="font-size: 50px;" >Skills</h1>
+            <b>HTML</b><br>
+            <B>CSS</B><br>
+            <b>JAVA SCRIPT</b>
+
+        </section>
+
+    </main>
+
+    <footer class="q" >
+        <h1>Please Visit My Details</h1>
+        <div class="a" >
+        <a style="position: relative; right:250px; " href="https://www.linkdin.com/in/k-anil-2ab15b333"><img style="height: 100px;" src="32.png" alt="lobo"></a>
+        <a style="position: relative; right:150px href="https://www.instagram.com/kodavandla.anil"><img style="height: 100px;" src="Instagram_logo_2022.svg.png" alt="logo" ></a>
+        <a style="position: relative; left:200px; href="https://www.facebook.com/profile.php?id=61569627367947"><img style="height: 100px;" src="Facebook-Logosu.png" alt="logo"></a>
+        <a style="position: relative; left:350px; href="https://www.github.com/Kodavandla/Kodavandla.git"><img style="height: 100px;" src="png-transparent-github-github-logo-github-3d-logo-3d-github-logo-3d-github-social-media-3d-icon-thumbnail.png" alt="logo"></a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
