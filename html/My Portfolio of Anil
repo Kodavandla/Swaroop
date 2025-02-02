@@ -42,12 +42,42 @@
             border: 1px solid gray;
             text-align: center;
             padding: 50px;
+            margin-bottom: 5vh;
+            padding: 40vh;
+            
             
         }
         .a{
-            padding: 10vh;
+            padding: -15vh;
+            padding-top: 200px;
+            
+            
+            
 
         }
+
+        #ty{
+            position: fixed;
+            left: 110px;
+            background-color: blue;
+            border-color: black;
+            height: 10vh;
+            width: 5vw;
+            border-radius: 50px;
+            
+        }
+
+        .qwe{
+            text-align: right;
+            position: relative;
+            bottom: 50px;
+            right: 30px;
+            position: fixed;
+
+
+        }
+
+        
 
        
 
@@ -59,21 +89,20 @@
     <header class="sub" >
         <h1>My Portfolio</h1>
         <div>
-        <a href=""><button>About</button></a>
-        <a href=""><button>Skills</button></a>
-        <a href=""><button>Project</button></a>
-        <a href=""><button>Contact</button></a>
-        </div>
-        
+        <a href="#About"><button>About</button></a>
+        <a href="#Skills"><button>Skills</button></a>
+        <a href="#Project"><button>Project</button></a>
+        <a href="#Contact"><button>Contact</button></a>
+        </div>        
     </header>
     <br>
     <br><br><br>
 
 
     <main>
-        <section class="q" >
-        <h1 style="font-size: 50px;" >About</h1>
-        <img style="height: 300px;" src="Anil image.jpg" alt="Image"><br>
+        <section class="q" id="About" >
+        <h1 style="font-size: 50px; margin-top: -20vh; padding-bottom: -81vh; " >About</h1>
+        <img style="height: 300px; padding-top: 5vh; padding-bottom: -5vh; " src="Anil image.jpg" alt="Image"><br>
         <p>
             I am Anil i was Graduated from MCA in Krishna University in Andhra Pradesh. <br>
             And I had some Alphbates Telugu and English and i did One Project from my MCA. <br>
@@ -83,7 +112,7 @@
         </p>
         </section>
 
-        <section class="q" >
+        <section class="q" id="Contact" >
             <h1 style="font-size: 50px;" >Contact</h1>
             <label for="name">User Name:</label>
             <input type="text" name="User Name" id="name" placeholder="Enter Name" required>
@@ -110,14 +139,14 @@
 
         </section>
 
-        <section class="q" >
+        <section class="q" id="Project" >
             <h1 style="font-size: 50px;" >Project</h1>
             
                 <b>Music Recommendation System</b>
             
         </section>
 
-        <section class="q" >
+        <section class="q" id="Skills" >
             <h1 style="font-size: 50px;" >Skills</h1>
             <b>HTML</b><br>
             <B>CSS</B><br>
@@ -127,14 +156,20 @@
 
     </main>
 
-    <footer class="q" >
-        <h1>Please Visit My Details</h1>
+    <footer class="q">
+        <h1 style="padding-top: 30px;">Please Visit My Details</h1>
         <div class="a" >
         <a style="position: relative; right:250px; " href="https://www.linkdin.com/in/k-anil-2ab15b333"><img style="height: 100px;" src="32.png" alt="lobo"></a>
-        <a style="position: relative; right:150px href="https://www.instagram.com/kodavandla.anil"><img style="height: 100px;" src="Instagram_logo_2022.svg.png" alt="logo" ></a>
-        <a style="position: relative; left:200px; href="https://www.facebook.com/profile.php?id=61569627367947"><img style="height: 100px;" src="Facebook-Logosu.png" alt="logo"></a>
-        <a style="position: relative; left:350px; href="https://www.github.com/Kodavandla/Kodavandla.git"><img style="height: 100px;" src="png-transparent-github-github-logo-github-3d-logo-3d-github-logo-3d-github-social-media-3d-icon-thumbnail.png" alt="logo"></a>
+        <a style="position: relative; right:150px   "href="https://www.instagram.com/kodavandla.anil"><img style="height: 100px; position: relative; left: 120px; "src="Instagram_logo_2022.svg.png" alt="logo" ></a>
+        <a style="position: relative; left:200px; "href="https://www.facebook.com/profile.php?id=61569627367947"><img style="height: 100px; " src="Facebook-Logosu.png" alt="logo"></a>
+        <a style="position: relative; left:350px; "href="https://www.github.com/Kodavandla/Kodavandla.git"><img style="height:100px;" src="png-transparent-github-github-logo-github-3d-logo-3d-github-logo-3d-github-social-media-3d-icon-thumbnail.png" alt="logo"></a>
         </div>
+
+       <div class="qwe">
+        <a href=""><button style="height: 7vh; border-radius: 30px; border-color: rgb(245, 8, 8);" >Top</button></a>
+       </div>   
+
+        
     </footer>
 
     
