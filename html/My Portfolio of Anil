@@ -29,11 +29,15 @@
                 cursor: pointer;
                 height: 5vh;
                 width: 10vw;
+                transition: color 1s linear 0.1s;
+                transition: background-color 1s linear 0.1s;
+                transform: initial;
                 
             }
             button:hover{
-                background-color: chartreuse;
-                color: red;
+                background-color: rgb(243, 12, 139);
+                color: rgb(248, 248, 252);
+                font-size:larger;
                 
             }
         }
@@ -44,6 +48,7 @@
             padding: 50px;
             margin-bottom: 5vh;
             padding: 40vh;
+            line-height: 5vh;
             
             
         }
@@ -72,10 +77,24 @@
             position: relative;
             bottom: 50px;
             right: 30px;
-            position: fixed;
-
+            position: fixed;        
 
         }
+
+        #zzz{
+            transition: color 1s linear 0.2s;
+            font-size: larger;
+            transform: skewy(20deg);
+        }
+        #zzz:hover{
+            color: rgb(0, 213, 255);
+            background-color: rgb(5, 33, 248);
+        }
+
+        .aa{
+            line-height: 5vh;
+        }
+       
 
         
 
@@ -103,7 +122,7 @@
         <section class="q" id="About" >
         <h1 style="font-size: 50px; margin-top: -20vh; padding-bottom: -81vh; " >About</h1>
         <img style="height: 300px; padding-top: 5vh; padding-bottom: -5vh; " src="Anil image.jpg" alt="Image"><br>
-        <p>
+        <p class="aa" >
             I am Anil i was Graduated from MCA in Krishna University in Andhra Pradesh. <br>
             And I had some Alphbates Telugu and English and i did One Project from my MCA. <br>
             Also i have some skills of my course that was HTML,CSS and JAVA SCRIPT. <br>
@@ -166,7 +185,7 @@
         </div>
 
        <div class="qwe">
-        <a href=""><button style="height: 7vh; border-radius: 30px; border-color: rgb(245, 8, 8);" >Top</button></a>
+        <a href=""><button id="zzz" style="height: 7vh; border-radius: 30px; border-color: rgb(245, 8, 8);" >Top</button></a>
        </div>   
 
         
