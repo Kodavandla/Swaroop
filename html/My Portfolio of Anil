@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
+
+
+ .zx{
+    @media(min-width: 100px;) and (max-width: 1500px;){
+        display: flex;
+    }
+        
+    }
+
+
+        @keyframes Ani {
+            0%{
+                transform: translateX(-10vw);
+                
+            }
+            40%{
+                transform: translateX(100vw);
+            }
+            50%{
+                transform: translateX(90vw);
+
+            }
+            60%{
+                transform: translateX(10vw);
+
+            }
+            90%{
+                transform: translateX(80vw);
+
+            }
+            99%{
+                transform: translateX(90vw);
+            }
+            100%{
+                transform: translateX(100vw);
+
+            }
+        }
+
+        #ui{
+            height: 70px;
+            width: 70px;
+            font-size: 6vh;
+            border-radius: 100px;
+            background-color: aqua;
+            animation: Ani 20s linear 0s infinite alternate;
+
+
+
+
+        }
+        #ui:hover{
+            background-color: blue;
+            color: white;
+        }
+
+
         .sub{
             background-color: rgb(130, 211, 252);
             padding-bottom: 70vh;
@@ -41,6 +97,7 @@
                 
             }
         }
+       
 
         .q{
             border: 1px solid gray;
@@ -94,17 +151,14 @@
         .aa{
             line-height: 5vh;
         }
-       
 
-        
-
-       
-
-       
-        
+     
     </style>
 </head>
-<body style="background-color: rgb(241, 248, 247);" >
+<body style="background-color: rgb(241, 248, 247);" class="zx" >
+
+    <button id="ui" >A</button>
+        
     <header class="sub" >
         <h1>My Portfolio</h1>
         <div>
@@ -112,7 +166,10 @@
         <a href="#Skills"><button>Skills</button></a>
         <a href="#Project"><button>Project</button></a>
         <a href="#Contact"><button>Contact</button></a>
-        </div>        
+        </div>
+        
+        
+        
     </header>
     <br>
     <br><br><br>
@@ -120,7 +177,7 @@
 
     <main>
         <section class="q" id="About" >
-        <h1 style="font-size: 50px; margin-top: -20vh; padding-bottom: -81vh; " >About</h1>
+        <h1 style="font-size: 50px; margin-top: -20vh; padding-bottom: -81vh; text-decoration: underline; " >About</h1>
         <img style="height: 300px; padding-top: 5vh; padding-bottom: -5vh; " src="Anil image.jpg" alt="Image"><br>
         <p class="aa" >
             I am Anil i was Graduated from MCA in Krishna University in Andhra Pradesh. <br>
@@ -132,7 +189,7 @@
         </section>
 
         <section class="q" id="Contact" >
-            <h1 style="font-size: 50px;" >Contact</h1>
+            <h1 style="font-size: 50px; position: relative; bottom: 10vh; text-decoration: underline; " >Contact</h1>
             <label for="name">User Name:</label>
             <input type="text" name="User Name" id="name" placeholder="Enter Name" required>
             <br>
@@ -159,24 +216,25 @@
         </section>
 
         <section class="q" id="Project" >
-            <h1 style="font-size: 50px;" >Project</h1>
+            <h1 style="font-size: 50px; position: relative; bottom: 10vh; text-decoration: underline; " >Project</h1>
             
                 <b>Music Recommendation System</b>
             
         </section>
 
         <section class="q" id="Skills" >
-            <h1 style="font-size: 50px;" >Skills</h1>
+            <h1 style="font-size: 50px; text-decoration: underline; position: relative; bottom: 10vh; " >Skills</h1>
             <b>HTML</b><br>
             <B>CSS</B><br>
             <b>JAVA SCRIPT</b>
 
         </section>
+        
 
     </main>
 
     <footer class="q">
-        <h1 style="padding-top: 30px;">Please Visit My Details</h1>
+        <h1 style="padding-top: 30px; text-decoration: underline ">Please Visit My Details</h1>
         <div class="a" >
         <a style="position: relative; right:250px; " href="https://www.linkdin.com/in/k-anil-2ab15b333"><img style="height: 100px;" src="32.png" alt="lobo"></a>
         <a style="position: relative; right:150px   "href="https://www.instagram.com/kodavandla.anil"><img style="height: 100px; position: relative; left: 120px; "src="Instagram_logo_2022.svg.png" alt="logo" ></a>
@@ -186,10 +244,14 @@
 
        <div class="qwe">
         <a href=""><button id="zzz" style="height: 7vh; border-radius: 30px; border-color: rgb(245, 8, 8);" >Top</button></a>
-       </div>   
+       </div>  
+       
+       
 
         
     </footer>
+
+    
 
     
 </body>
