@@ -157,6 +157,11 @@
 </head>
 <body style="background-color: rgb(241, 248, 247);" class="zx" >
 
+    <script>
+        alert("Welcome Back To Portfolio")
+    </script>
+
+
     <button id="ui" >A</button>
         
     <header class="sub" >
@@ -180,8 +185,8 @@
         <h1 style="font-size: 50px; margin-top: -20vh; padding-bottom: -81vh; text-decoration: underline; " >About</h1>
         <img style="height: 300px; padding-top: 5vh; padding-bottom: -5vh; " src="Anil image.jpg" alt="Image"><br>
         <p class="aa" >
-            I am Anil i was Graduated from MCA in Krishna University in Andhra Pradesh. <br>
-            And I had some Alphbates Telugu and English and i did One Project from my MCA. <br>
+            I am Anil i was Graduated from MCA in <b>Krishna University</b> in <b>Andhra Pradesh</b>. <br>
+            And I had some Alphbates Telugu and English and i did One Project from my <em>MCA</em>. <br>
             Also i have some skills of my course that was HTML,CSS and JAVA SCRIPT. <br>
             My native place is Andhra Pradesh in India.
 
